@@ -20,7 +20,7 @@ install.packages("fixest",
                            CRAN = 'https://cloud.r-project.org'))
 ```
 
-> [!NOTE](Multi-threading on MacOS)
+> [!NOTE]
 > MacOS users should enable the OpenMP rutime on their system in order to to take advantage of `fixest`'s multi-threading capabilities. (This is enabled by default on Linux and Windows.) For background details, see [here](https://blog.thecoatlessprofessor.com/programming/cpp/lightweight-alternative-to-setup-run-diagnostics-and-uninstall-openmp-on-macos-using-apple-s-xcode-toolchain/). The _tl;dr_ version is
 > ```sh
 > curl -O https://raw.githubusercontent.com/coatless-shell/openmp/main/install-openmp.sh
